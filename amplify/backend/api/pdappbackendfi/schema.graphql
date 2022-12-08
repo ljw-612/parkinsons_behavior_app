@@ -1,0 +1,188 @@
+type SubmitTime @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  time: String!
+}
+
+type InformationTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  number: String!
+  age: String!
+  gender: String!
+  testtime: String!
+  medicinetype: String!
+  medicinefreq: String!
+  symptom: String!
+}
+
+type UserAccount @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Username: String!
+  Password: String!
+  uid: String!
+}
+
+type RhythmTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  Score: Int!
+  TotalPixelsFromCenter: Float!
+}
+
+type MemoryGame @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  Tries: Int!
+  Difficulty: Int!
+  GameFinished: Boolean!
+}
+
+type AuditoryMemoryThreeWords @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type AuditoryMemoryFourWords @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type AuditoryMemoryFiveWords @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type ClockDrawingTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type JoinCirclesTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type TremorTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type RecordVowelTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type RecordBreathTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type RecordSentenceTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type StraightWalkingTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  stepcount: String!
+}
+
+type TurningTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+}
+
+type DemographicSurvey @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  Question1: String!
+  Question2: String!
+  Question3: String!
+  Question4: String!
+  Question5: String!
+  Question6: String!
+  Question7: String!
+  Question8: String!
+  Question9: String!
+  Question10: String!
+  Question11: String!
+  Question12: String!
+  Question13: String!
+  Question14: String!
+  Question15: String!
+  Question16: String!
+  Question17: String!
+  Question18: String!
+  Question19: String!
+  Question20: String!
+  Question21: String!
+  Question22: String!
+  Question23: String!
+  Question24: String!
+  Question25: String!
+  Question26: String!
+  Question27: String!
+  Question28: String!
+  Question29: String!
+  Question30: String!
+  Question31: String!
+  SurveyParticipant: String!
+}
+
+type MDSUPDRS @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  Question1: Int!
+  Question2: Int!
+  Question3: Int!
+  Question4: Int!
+  Question5: Int!
+  Question6: Int!
+  Question7: Int!
+  Question8: Int!
+  Question9: Int!
+  Question10: Int!
+  Question11: Int!
+  Question12: Int!
+  Question13: Int!
+  Question14: Int!
+  Question15: Int!
+  Question16: Int!
+  Question17: Int!
+  Question18: Int!
+  Question19: Int!
+  Question20: Int!
+  Question21: Int!
+  SurveyParticipant: String!
+}
+
+type MMSE @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  uid: String!
+  Question1: String!
+  Question2: String!
+  Question3: String!
+  Question4: String!
+  Question5: String!
+  Question6: String!
+  Question7: String!
+  Question8: String!
+  Question9: String!
+  Question10: String!
+}
+ 

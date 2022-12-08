@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jingwei/parkinsons_behavior_app/build/amplify_datastore/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jingwei/parkinsons_behavior_app/build/amplify_datastore/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

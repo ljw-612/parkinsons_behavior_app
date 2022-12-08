@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/res/merged/debug/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

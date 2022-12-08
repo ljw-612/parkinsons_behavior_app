@@ -1,0 +1,789 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+MERGED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+MERGED from [:amplify_api] /Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_storage_s3] /Users/jingwei/parkinsons_behavior_app/build/amplify_storage_s3/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_flutter] /Users/jingwei/parkinsons_behavior_app/build/amplify_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_datastore] /Users/jingwei/parkinsons_behavior_app/build/amplify_datastore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:amplify_auth_cognito] /Users/jingwei/parkinsons_behavior_app/build/amplify_auth_cognito/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_core] /Users/jingwei/parkinsons_behavior_app/build/amplify_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/jingwei/parkinsons_behavior_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_gallery_saver] /Users/jingwei/parkinsons_behavior_app/build/image_gallery_saver/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/jingwei/parkinsons_behavior_app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:shared_preferences_android] /Users/jingwei/parkinsons_behavior_app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:audioplayers] /Users/jingwei/parkinsons_behavior_app/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:motion_sensors] /Users/jingwei/parkinsons_behavior_app/build/motion_sensors/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:pedometer] /Users/jingwei/parkinsons_behavior_app/build/pedometer/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_sound] /Users/jingwei/parkinsons_behavior_app/build/flutter_sound/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /Users/jingwei/parkinsons_behavior_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cfe4dac83c8eb0b21c1cc9d2f23f6c37/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.amplifyframework:aws-api:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/04b689ae504d65c8e801326441bc5fc6/jetified-aws-api-1.28.3-rc/AndroidManifest.xml:16:1-26:12
+MERGED from [com.amplifyframework:aws-datastore:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/fc37e52d276da8ff546d8dc3938d6341/jetified-aws-datastore-1.28.3-rc/AndroidManifest.xml:16:1-24:12
+MERGED from [com.amplifyframework:aws-api-appsync:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/32077b4d7d1a685153b43e263b923bc9/jetified-aws-api-appsync-1.28.3-rc/AndroidManifest.xml:16:1-24:12
+MERGED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:16:1-30:12
+MERGED from [com.amplifyframework:aws-analytics-pinpoint:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b4ecad2c70f60b402690fd6edd2281b7/jetified-aws-analytics-pinpoint-1.28.3-rc/AndroidManifest.xml:16:1-24:12
+MERGED from [com.amplifyframework:aws-auth-cognito:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/811b74020beb99627a2dd13090774117/jetified-aws-auth-cognito-1.28.3-rc/AndroidManifest.xml:16:1-24:12
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:16:1-32:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/efaa693e4ed983ac7c8f1fc314f78d06/jetified-navigation-dynamic-features-fragment-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/98895044568d722190758e2ac3e29e96/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b6a0297f9b1a88f6f7a39170363ae68e/navigation-ui-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c6ad23d7b5f7ecb7f7e3b29e26332304/jetified-navigation-dynamic-features-runtime-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/896b856711981b8d229d16ba1ca6f820/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/fe7cab30f8c8bf3849ace68ffc70206c/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b4fdf658516192e63a34009fef204fcf/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a82463360868443c9a18e10d0129abec/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/807f1825c117b8428a655bebb463b54b/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3a79a5b5c52dfd4b6a9549092ae7755d/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cb9aff8fb4eb913803abfa633967a756/jetified-aws-android-sdk-auth-core-2.34.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5915fe973e0225b91dc9bcc4426c5037/jetified-aws-android-sdk-s3-2.34.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/682bc1e657995df61f1794c4c10d9286/jetified-aws-android-sdk-pinpoint-2.34.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/add163c774cd948b6f4b316644207cc7/jetified-aws-android-sdk-cognitoidentityprovider-2.34.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-kms:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/aa7f2b6b84e0b5c9586b951bf1ed8cf9/jetified-aws-android-sdk-kms-2.34.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5898193bd19779eb8e3ba09a50a192c0/navigation-common-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4425f04e362456018de0c92199a6a19e/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e1f2b654d1e6ee89369634ed303efb5e/navigation-ui-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d1918873b2f61ec1a878757a7cdaf145/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8b8a456f27806fd60bc8b6412831ba56/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/50e0c94bb22e6248a806a4d0cd33e909/media-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8fe7cb34ae29cfc5eeb860141765dbe5/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/bcda820ff7c53971f03e963581509872/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5fc08154f879ef8517459db189567d1d/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/baba3b29cd9c6ab86213864cc6a239f4/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4ce8876c9a2656c2759c1060da51affe/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8b1fe43b7e85df999e53da2fc2c26724/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/614a433adb82861d365f84a7a915b8e8/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/53c2c5f6aef6cc0521a0749ea672852f/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/07b564dae0087cc4462f9ef158dbd590/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cbb42ae500653866569f7d69078144f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6b76f844a8f8479f73132d628f3df11f/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e12ff8e3fa5b07f7d2ea7bbd5e716cc2/navigation-fragment-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8694111f2be741c738a5e6e91236946e/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6d0576251f66035dfa6912fb54b70d60/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3c538a9ca6fd0241cf00744bb84badec/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/48d2aa712b8bd79f6b94c20396d4b206/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/0f2af12ab83b35d86eb65b6be185392f/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5b8627bfd629e9adcf279738f2f90171/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9aa13ec0a58060d4619168e14cbc6030/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6bc10bf6bc15f71ee4b43de158db57d2/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/116e1a17821586e011a0f5ce2288264b/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8e87bb54c5871a86b72e4b43f45b7834/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/80aac6e37c9211b3063dd425200e6909/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b5b61cced26211cc987efbc748d33c79/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cb22ea05d73736c352d5ed3de7a7b166/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a0bc409bfa4b175c1646733d23380717/navigation-runtime-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d9b19c92cfa56cfd37cbcd54e0cca38a/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/2cc77299d930ac6535a96d2c9065a956/navigation-common-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d5c2bd11f23a97addcaf6c77d23fcc32/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9f7ce6c31eb9d7b092e841529c831673/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c79d85345955dc4d727e2fe556e1c08e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f4d411ef72c599f738f4cb34d6168878/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/de943d3cd778fac73a990e8373f35afb/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d9e0a23fd409b5a31c9de86e3533b29e/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/078a4ea8fbd442b5ca24f58eb3032bb7/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/de1d8d47d80075c4b3beda9cd8b10d60/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/85a82ed3a56b92cfc2f9e2b37ea37859/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/1fd3ea0b0d7c74a90980f0c6e2f9b07a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ece31dae2367132b56a11ea96c9a0942/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ff2bf819c05188a7fcfe2ba9153129b4/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b3c0232b5e0099c864103bbfe33f556d/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c2e8c708fba47334c9a885bd9cf33053/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/7251c8b29171f32db299cdc6327544d1/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/02c83a5f7fd14becb6f2b6d11772f753/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/27dc48a2ef933392df8bb1b59c1206c0/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e21835280d23c8904243530835c0cd3b/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.arthenica:mobile-ffmpeg-full:4.4.LTS] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a9a2371a228c30da86b9d734d6d941f9/jetified-mobile-ffmpeg-full-4.4.LTS/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/0103b48994269684453a8d49fadd8150/jetified-rxandroid-3.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ae4dd78137c07157c137f505ce991ecc/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/7f4985101015c373dbe2bf1e313a014e/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:3:5-70
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-71
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-71
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:11:5-71
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:3:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:4:5-80
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:12:5-81
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:8:3-74
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:5:22-74
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:9:5-49:19
+MERGED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-11:19
+MERGED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-11:19
+MERGED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:24:5-28:19
+MERGED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:24:5-28:19
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:26:5-30:19
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3a79a5b5c52dfd4b6a9549092ae7755d/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3a79a5b5c52dfd4b6a9549092ae7755d/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:15:5-34:19
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:15:5-34:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/bcda820ff7c53971f03e963581509872/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/bcda820ff7c53971f03e963581509872/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5fc08154f879ef8517459db189567d1d/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5fc08154f879ef8517459db189567d1d/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/614a433adb82861d365f84a7a915b8e8/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/614a433adb82861d365f84a7a915b8e8/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/53c2c5f6aef6cc0521a0749ea672852f/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/53c2c5f6aef6cc0521a0749ea672852f/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cbb42ae500653866569f7d69078144f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cbb42ae500653866569f7d69078144f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6b76f844a8f8479f73132d628f3df11f/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6b76f844a8f8479f73132d628f3df11f/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d5c2bd11f23a97addcaf6c77d23fcc32/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d5c2bd11f23a97addcaf6c77d23fcc32/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/85a82ed3a56b92cfc2f9e2b37ea37859/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/85a82ed3a56b92cfc2f9e2b37ea37859/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:10:3-21:17
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:10:3-21:17
+	android:requestLegacyExternalStorage
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:12:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d5c2bd11f23a97addcaf6c77d23fcc32/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:10:9-27
+	android:icon
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:11:9-43
+activity#com.example.parkinsons_app.MainActivity
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:14:9-43:20
+	android:launchMode
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:17:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:20:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:21:13-55
+	android:exported
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:16:13-36
+	android:configChanges
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:19:13-163
+	android:theme
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:15:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:26:13-29:17
+	android:resource
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:28:15-52
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:27:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:35:13-38:17
+	android:resource
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:37:15-61
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:36:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:40:17-68
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:41:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:46:9-48:33
+	android:value
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:48:13-30
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml:47:13-44
+uses-sdk
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:amplify_api] /Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_api] /Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_storage_s3] /Users/jingwei/parkinsons_behavior_app/build/amplify_storage_s3/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_storage_s3] /Users/jingwei/parkinsons_behavior_app/build/amplify_storage_s3/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_flutter] /Users/jingwei/parkinsons_behavior_app/build/amplify_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_flutter] /Users/jingwei/parkinsons_behavior_app/build/amplify_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_datastore] /Users/jingwei/parkinsons_behavior_app/build/amplify_datastore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_datastore] /Users/jingwei/parkinsons_behavior_app/build/amplify_datastore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_auth_cognito] /Users/jingwei/parkinsons_behavior_app/build/amplify_auth_cognito/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_auth_cognito] /Users/jingwei/parkinsons_behavior_app/build/amplify_auth_cognito/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_core] /Users/jingwei/parkinsons_behavior_app/build/amplify_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:amplify_core] /Users/jingwei/parkinsons_behavior_app/build/amplify_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/jingwei/parkinsons_behavior_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/jingwei/parkinsons_behavior_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_gallery_saver] /Users/jingwei/parkinsons_behavior_app/build/image_gallery_saver/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_gallery_saver] /Users/jingwei/parkinsons_behavior_app/build/image_gallery_saver/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/jingwei/parkinsons_behavior_app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/jingwei/parkinsons_behavior_app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/jingwei/parkinsons_behavior_app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/jingwei/parkinsons_behavior_app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers] /Users/jingwei/parkinsons_behavior_app/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers] /Users/jingwei/parkinsons_behavior_app/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
+MERGED from [:motion_sensors] /Users/jingwei/parkinsons_behavior_app/build/motion_sensors/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:motion_sensors] /Users/jingwei/parkinsons_behavior_app/build/motion_sensors/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:pedometer] /Users/jingwei/parkinsons_behavior_app/build/pedometer/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:pedometer] /Users/jingwei/parkinsons_behavior_app/build/pedometer/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] /Users/jingwei/parkinsons_behavior_app/build/flutter_sound/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] /Users/jingwei/parkinsons_behavior_app/build/flutter_sound/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/jingwei/parkinsons_behavior_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/jingwei/parkinsons_behavior_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cfe4dac83c8eb0b21c1cc9d2f23f6c37/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cfe4dac83c8eb0b21c1cc9d2f23f6c37/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-api:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/04b689ae504d65c8e801326441bc5fc6/jetified-aws-api-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-api:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/04b689ae504d65c8e801326441bc5fc6/jetified-aws-api-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-datastore:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/fc37e52d276da8ff546d8dc3938d6341/jetified-aws-datastore-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-datastore:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/fc37e52d276da8ff546d8dc3938d6341/jetified-aws-datastore-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-api-appsync:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/32077b4d7d1a685153b43e263b923bc9/jetified-aws-api-appsync-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-api-appsync:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/32077b4d7d1a685153b43e263b923bc9/jetified-aws-api-appsync-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-analytics-pinpoint:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b4ecad2c70f60b402690fd6edd2281b7/jetified-aws-analytics-pinpoint-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-analytics-pinpoint:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b4ecad2c70f60b402690fd6edd2281b7/jetified-aws-analytics-pinpoint-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-auth-cognito:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/811b74020beb99627a2dd13090774117/jetified-aws-auth-cognito-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-auth-cognito:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/811b74020beb99627a2dd13090774117/jetified-aws-auth-cognito-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/efaa693e4ed983ac7c8f1fc314f78d06/jetified-navigation-dynamic-features-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/efaa693e4ed983ac7c8f1fc314f78d06/jetified-navigation-dynamic-features-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/98895044568d722190758e2ac3e29e96/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/98895044568d722190758e2ac3e29e96/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b6a0297f9b1a88f6f7a39170363ae68e/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b6a0297f9b1a88f6f7a39170363ae68e/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c6ad23d7b5f7ecb7f7e3b29e26332304/jetified-navigation-dynamic-features-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c6ad23d7b5f7ecb7f7e3b29e26332304/jetified-navigation-dynamic-features-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/896b856711981b8d229d16ba1ca6f820/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/896b856711981b8d229d16ba1ca6f820/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/fe7cab30f8c8bf3849ace68ffc70206c/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/fe7cab30f8c8bf3849ace68ffc70206c/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b4fdf658516192e63a34009fef204fcf/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b4fdf658516192e63a34009fef204fcf/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a82463360868443c9a18e10d0129abec/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a82463360868443c9a18e10d0129abec/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/807f1825c117b8428a655bebb463b54b/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/807f1825c117b8428a655bebb463b54b/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3a79a5b5c52dfd4b6a9549092ae7755d/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3a79a5b5c52dfd4b6a9549092ae7755d/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:12:5-15:96
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:12:5-15:96
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cb9aff8fb4eb913803abfa633967a756/jetified-aws-android-sdk-auth-core-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cb9aff8fb4eb913803abfa633967a756/jetified-aws-android-sdk-auth-core-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5915fe973e0225b91dc9bcc4426c5037/jetified-aws-android-sdk-s3-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5915fe973e0225b91dc9bcc4426c5037/jetified-aws-android-sdk-s3-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/682bc1e657995df61f1794c4c10d9286/jetified-aws-android-sdk-pinpoint-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/682bc1e657995df61f1794c4c10d9286/jetified-aws-android-sdk-pinpoint-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/add163c774cd948b6f4b316644207cc7/jetified-aws-android-sdk-cognitoidentityprovider-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/add163c774cd948b6f4b316644207cc7/jetified-aws-android-sdk-cognitoidentityprovider-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-kms:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/aa7f2b6b84e0b5c9586b951bf1ed8cf9/jetified-aws-android-sdk-kms-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-kms:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/aa7f2b6b84e0b5c9586b951bf1ed8cf9/jetified-aws-android-sdk-kms-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5898193bd19779eb8e3ba09a50a192c0/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5898193bd19779eb8e3ba09a50a192c0/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4425f04e362456018de0c92199a6a19e/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4425f04e362456018de0c92199a6a19e/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e1f2b654d1e6ee89369634ed303efb5e/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e1f2b654d1e6ee89369634ed303efb5e/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d1918873b2f61ec1a878757a7cdaf145/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d1918873b2f61ec1a878757a7cdaf145/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.czt.mp3recorder:library:1.0.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/09b08d94760e72f6f60ea9c00bd1abee/jetified-library-1.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8b8a456f27806fd60bc8b6412831ba56/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8b8a456f27806fd60bc8b6412831ba56/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/50e0c94bb22e6248a806a4d0cd33e909/media-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/50e0c94bb22e6248a806a4d0cd33e909/media-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8fe7cb34ae29cfc5eeb860141765dbe5/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8fe7cb34ae29cfc5eeb860141765dbe5/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/bcda820ff7c53971f03e963581509872/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/bcda820ff7c53971f03e963581509872/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5fc08154f879ef8517459db189567d1d/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5fc08154f879ef8517459db189567d1d/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/baba3b29cd9c6ab86213864cc6a239f4/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/baba3b29cd9c6ab86213864cc6a239f4/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4ce8876c9a2656c2759c1060da51affe/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4ce8876c9a2656c2759c1060da51affe/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8b1fe43b7e85df999e53da2fc2c26724/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8b1fe43b7e85df999e53da2fc2c26724/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/614a433adb82861d365f84a7a915b8e8/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/614a433adb82861d365f84a7a915b8e8/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/53c2c5f6aef6cc0521a0749ea672852f/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/53c2c5f6aef6cc0521a0749ea672852f/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/07b564dae0087cc4462f9ef158dbd590/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/07b564dae0087cc4462f9ef158dbd590/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cbb42ae500653866569f7d69078144f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cbb42ae500653866569f7d69078144f8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6b76f844a8f8479f73132d628f3df11f/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6b76f844a8f8479f73132d628f3df11f/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e12ff8e3fa5b07f7d2ea7bbd5e716cc2/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e12ff8e3fa5b07f7d2ea7bbd5e716cc2/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8694111f2be741c738a5e6e91236946e/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8694111f2be741c738a5e6e91236946e/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6d0576251f66035dfa6912fb54b70d60/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6d0576251f66035dfa6912fb54b70d60/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3c538a9ca6fd0241cf00744bb84badec/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/3c538a9ca6fd0241cf00744bb84badec/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/48d2aa712b8bd79f6b94c20396d4b206/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/48d2aa712b8bd79f6b94c20396d4b206/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/0f2af12ab83b35d86eb65b6be185392f/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/0f2af12ab83b35d86eb65b6be185392f/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5b8627bfd629e9adcf279738f2f90171/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5b8627bfd629e9adcf279738f2f90171/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9aa13ec0a58060d4619168e14cbc6030/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9aa13ec0a58060d4619168e14cbc6030/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6bc10bf6bc15f71ee4b43de158db57d2/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/6bc10bf6bc15f71ee4b43de158db57d2/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/116e1a17821586e011a0f5ce2288264b/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/116e1a17821586e011a0f5ce2288264b/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8e87bb54c5871a86b72e4b43f45b7834/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/8e87bb54c5871a86b72e4b43f45b7834/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/80aac6e37c9211b3063dd425200e6909/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/80aac6e37c9211b3063dd425200e6909/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b5b61cced26211cc987efbc748d33c79/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b5b61cced26211cc987efbc748d33c79/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cb22ea05d73736c352d5ed3de7a7b166/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/cb22ea05d73736c352d5ed3de7a7b166/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a0bc409bfa4b175c1646733d23380717/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a0bc409bfa4b175c1646733d23380717/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d9b19c92cfa56cfd37cbcd54e0cca38a/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d9b19c92cfa56cfd37cbcd54e0cca38a/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/2cc77299d930ac6535a96d2c9065a956/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/2cc77299d930ac6535a96d2c9065a956/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d5c2bd11f23a97addcaf6c77d23fcc32/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d5c2bd11f23a97addcaf6c77d23fcc32/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9f7ce6c31eb9d7b092e841529c831673/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9f7ce6c31eb9d7b092e841529c831673/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c79d85345955dc4d727e2fe556e1c08e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c79d85345955dc4d727e2fe556e1c08e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f4d411ef72c599f738f4cb34d6168878/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f4d411ef72c599f738f4cb34d6168878/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/de943d3cd778fac73a990e8373f35afb/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/de943d3cd778fac73a990e8373f35afb/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d9e0a23fd409b5a31c9de86e3533b29e/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d9e0a23fd409b5a31c9de86e3533b29e/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/078a4ea8fbd442b5ca24f58eb3032bb7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/078a4ea8fbd442b5ca24f58eb3032bb7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/de1d8d47d80075c4b3beda9cd8b10d60/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/de1d8d47d80075c4b3beda9cd8b10d60/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/85a82ed3a56b92cfc2f9e2b37ea37859/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/85a82ed3a56b92cfc2f9e2b37ea37859/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/1fd3ea0b0d7c74a90980f0c6e2f9b07a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/1fd3ea0b0d7c74a90980f0c6e2f9b07a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ece31dae2367132b56a11ea96c9a0942/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ece31dae2367132b56a11ea96c9a0942/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ff2bf819c05188a7fcfe2ba9153129b4/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ff2bf819c05188a7fcfe2ba9153129b4/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b3c0232b5e0099c864103bbfe33f556d/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/b3c0232b5e0099c864103bbfe33f556d/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c2e8c708fba47334c9a885bd9cf33053/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/c2e8c708fba47334c9a885bd9cf33053/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/7251c8b29171f32db299cdc6327544d1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/7251c8b29171f32db299cdc6327544d1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/02c83a5f7fd14becb6f2b6d11772f753/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/02c83a5f7fd14becb6f2b6d11772f753/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/27dc48a2ef933392df8bb1b59c1206c0/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/27dc48a2ef933392df8bb1b59c1206c0/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e21835280d23c8904243530835c0cd3b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e21835280d23c8904243530835c0cd3b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.arthenica:mobile-ffmpeg-full:4.4.LTS] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a9a2371a228c30da86b9d734d6d941f9/jetified-mobile-ffmpeg-full-4.4.LTS/AndroidManifest.xml:7:5-9:41
+MERGED from [com.arthenica:mobile-ffmpeg-full:4.4.LTS] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/a9a2371a228c30da86b9d734d6d941f9/jetified-mobile-ffmpeg-full-4.4.LTS/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/0103b48994269684453a8d49fadd8150/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/0103b48994269684453a8d49fadd8150/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ae4dd78137c07157c137f505ce991ecc/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/ae4dd78137c07157c137f505ce991ecc/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/7f4985101015c373dbe2bf1e313a014e/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/7f4985101015c373dbe2bf1e313a014e/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:4:3-70
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:15:9-93
+	android:targetSdkVersion
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.amplifyframework:aws-api:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/04b689ae504d65c8e801326441bc5fc6/jetified-aws-api-1.28.3-rc/AndroidManifest.xml:24:5-67
+MERGED from [com.amplifyframework:aws-api:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/04b689ae504d65c8e801326441bc5fc6/jetified-aws-api-1.28.3-rc/AndroidManifest.xml:24:5-67
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:24:5-67
+MERGED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:17:5-67
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/jingwei/parkinsons_behavior_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+activity#com.amazonaws.amplify.amplify_analytics_pinpoint.EmptyActivity
+ADDED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:40
+	android:exported
+		ADDED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from [:amplify_analytics_pinpoint] /Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/jingwei/parkinsons_behavior_app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:12:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-80
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:13:5-80
+MERGED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [:record_mp3] /Users/jingwei/parkinsons_behavior_app/build/record_mp3/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-77
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/4e72275f352f432258efde867f0b8182/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
+ADDED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:25:9-27:38
+	android:enabled
+		ADDED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:27:13-35
+	android:name
+		ADDED from [com.amplifyframework:aws-storage-s3:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/9b9aa38d87b5bfed9ed663a0687b9f9e/jetified-aws-storage-s3-1.28.3-rc/AndroidManifest.xml:26:13-93
+activity#com.amplifyframework.devmenu.DeveloperMenuActivity
+ADDED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:27:9-29:54
+	android:theme
+		ADDED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:29:13-51
+	android:name
+		ADDED from [com.amplifyframework:core:1.28.3-rc] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/43afe66a1bd294defcbf72ab322a2517/jetified-core-1.28.3-rc/AndroidManifest.xml:28:13-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:18:5-79
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/f80fe6075570dcae35018b058a63ac81/jetified-aws-android-sdk-mobile-client-2.34.0/AndroidManifest.xml:18:5-79
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5915fe973e0225b91dc9bcc4426c5037/jetified-aws-android-sdk-s3-2.34.0/AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5915fe973e0225b91dc9bcc4426c5037/jetified-aws-android-sdk-s3-2.34.0/AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/682bc1e657995df61f1794c4c10d9286/jetified-aws-android-sdk-pinpoint-2.34.0/AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/682bc1e657995df61f1794c4c10d9286/jetified-aws-android-sdk-pinpoint-2.34.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/89ff2a0a508cdac1501b0a366e1fbd62/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:23:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/429e7928bc98ac0e98929b3cb88812d1/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/d401fc762c935663d78e29efbe2c2af4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/e7c5f10a0f1792c4b80b403309eb1bfe/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity
+ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:12:9-16:75
+	android:launchMode
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:15:13-44
+	android:exported
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/01d0bb7c1ece2f839e15fcc78cc4a819/jetified-aws-android-sdk-cognitoauth-2.34.0/AndroidManifest.xml:13:13-107
+uses-library#org.apache.http.legacy
+ADDED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:11:9-13:40
+	android:required
+		ADDED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-core:2.34.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/661183acbcd056fc0764395513c13e00/jetified-aws-android-sdk-core-2.34.0/AndroidManifest.xml:12:13-50
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:11:22-65
+receiver#androidx.media.session.MediaButtonReceiver
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:16:9-23:20
+	android:exported
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:17:13-70
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON+action:name:android.media.AUDIO_BECOMING_NOISY
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:20:25-74
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:21:25-74
+service#com.dooboolab.TauEngine.FlautoBackgroundAudioService
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:25:9-33:19
+	android:exported
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:26:13-80
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON+action:name:android.media.AUDIO_BECOMING_NOISY+action:name:android.media.browse.FlautoMediaBrowserService
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:28:13-32:29
+action#android.media.browse.FlautoMediaBrowserService
+ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:31:17-89
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:8.5.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/34b2471eb59cb06c46948e1d888edf46/jetified-flutter_sound_core-8.5.0/AndroidManifest.xml:31:25-86
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/78106ae4d37aa85135950007e4725ed1/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/5be2f1bdc46168e515e181dade0fea40/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/19429d7a9606884fcf4650b587714c59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:16:5-18:15
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:16:14-95
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:17:7-108
+	android:value
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:17:85-106
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:17:18-84
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:19:5-147
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:19:97-120
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:19:121-145
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/jingwei/.gradle/caches/transforms-2/files-2.1/625aceb02cd2c080a3c7b6cfc3248d1f/jetified-core-1.9.1/AndroidManifest.xml:19:14-96

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">180701408001-f352th8prflqakucq18god8bi40pm17t.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">180701408001</string>
+    <string name="google_api_key" translatable="false">AIzaSyBoIyDAcj09eQZhc9UPE7WhuKf9yDQvUGk</string>
+    <string name="google_app_id" translatable="false">1:180701408001:android:61806933139750866b0900</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBoIyDAcj09eQZhc9UPE7WhuKf9yDQvUGk</string>
+    <string name="google_storage_bucket" translatable="false">parkinson-behavior-app.appspot.com</string>
+    <string name="project_id" translatable="false">parkinson-behavior-app</string>
+</resources>

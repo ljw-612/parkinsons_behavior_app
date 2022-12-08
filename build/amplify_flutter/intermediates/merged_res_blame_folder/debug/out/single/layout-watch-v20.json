@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_flutter/intermediates/res/merged/debug/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/fe7c162e79d6a1f088bf8edc20e92072/appcompat-1.0.0/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_flutter/intermediates/res/merged/debug/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/fe7c162e79d6a1f088bf8edc20e92072/appcompat-1.0.0/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

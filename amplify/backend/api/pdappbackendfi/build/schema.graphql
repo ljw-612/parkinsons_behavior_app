@@ -1,0 +1,1649 @@
+
+type SubmitTime @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  time: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type InformationTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  number: String!
+  age: String!
+  gender: String!
+  testtime: String!
+  medicinetype: String!
+  medicinefreq: String!
+  symptom: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type UserAccount @aws_iam @aws_api_key {
+  id: ID!
+  Username: String!
+  Password: String!
+  uid: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type RhythmTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  Score: Int!
+  TotalPixelsFromCenter: Float!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type MemoryGame @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  Tries: Int!
+  Difficulty: Int!
+  GameFinished: Boolean!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type AuditoryMemoryThreeWords @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type AuditoryMemoryFourWords @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type AuditoryMemoryFiveWords @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type ClockDrawingTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type JoinCirclesTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type TremorTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type RecordVowelTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type RecordBreathTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type RecordSentenceTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type StraightWalkingTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  stepcount: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type TurningTest @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  MedicineAnswer: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type DemographicSurvey @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  Question1: String!
+  Question2: String!
+  Question3: String!
+  Question4: String!
+  Question5: String!
+  Question6: String!
+  Question7: String!
+  Question8: String!
+  Question9: String!
+  Question10: String!
+  Question11: String!
+  Question12: String!
+  Question13: String!
+  Question14: String!
+  Question15: String!
+  Question16: String!
+  Question17: String!
+  Question18: String!
+  Question19: String!
+  Question20: String!
+  Question21: String!
+  Question22: String!
+  Question23: String!
+  Question24: String!
+  Question25: String!
+  Question26: String!
+  Question27: String!
+  Question28: String!
+  Question29: String!
+  Question30: String!
+  Question31: String!
+  SurveyParticipant: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type MDSUPDRS @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  Question1: Int!
+  Question2: Int!
+  Question3: Int!
+  Question4: Int!
+  Question5: Int!
+  Question6: Int!
+  Question7: Int!
+  Question8: Int!
+  Question9: Int!
+  Question10: Int!
+  Question11: Int!
+  Question12: Int!
+  Question13: Int!
+  Question14: Int!
+  Question15: Int!
+  Question16: Int!
+  Question17: Int!
+  Question18: Int!
+  Question19: Int!
+  Question20: Int!
+  Question21: Int!
+  SurveyParticipant: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type MMSE @aws_iam @aws_api_key {
+  id: ID!
+  uid: String!
+  Question1: String!
+  Question2: String!
+  Question3: String!
+  Question4: String!
+  Question5: String!
+  Question6: String!
+  Question7: String!
+  Question8: String!
+  Question9: String!
+  Question10: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelSubmitTimeConnection @aws_api_key @aws_iam {
+  items: [SubmitTime]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelSubmitTimeFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  time: ModelStringInput
+  and: [ModelSubmitTimeFilterInput]
+  or: [ModelSubmitTimeFilterInput]
+  not: ModelSubmitTimeFilterInput
+}
+
+type Query {
+  getSubmitTime(id: ID!): SubmitTime @aws_api_key @aws_iam
+  listSubmitTimes(filter: ModelSubmitTimeFilterInput, limit: Int, nextToken: String): ModelSubmitTimeConnection @aws_api_key @aws_iam
+  syncSubmitTimes(filter: ModelSubmitTimeFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelSubmitTimeConnection @aws_api_key @aws_iam
+  getInformationTest(id: ID!): InformationTest @aws_api_key @aws_iam
+  listInformationTests(filter: ModelInformationTestFilterInput, limit: Int, nextToken: String): ModelInformationTestConnection @aws_api_key @aws_iam
+  syncInformationTests(filter: ModelInformationTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelInformationTestConnection @aws_api_key @aws_iam
+  getUserAccount(id: ID!): UserAccount @aws_api_key @aws_iam
+  listUserAccounts(filter: ModelUserAccountFilterInput, limit: Int, nextToken: String): ModelUserAccountConnection @aws_api_key @aws_iam
+  syncUserAccounts(filter: ModelUserAccountFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelUserAccountConnection @aws_api_key @aws_iam
+  getRhythmTest(id: ID!): RhythmTest @aws_api_key @aws_iam
+  listRhythmTests(filter: ModelRhythmTestFilterInput, limit: Int, nextToken: String): ModelRhythmTestConnection @aws_api_key @aws_iam
+  syncRhythmTests(filter: ModelRhythmTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelRhythmTestConnection @aws_api_key @aws_iam
+  getMemoryGame(id: ID!): MemoryGame @aws_api_key @aws_iam
+  listMemoryGames(filter: ModelMemoryGameFilterInput, limit: Int, nextToken: String): ModelMemoryGameConnection @aws_api_key @aws_iam
+  syncMemoryGames(filter: ModelMemoryGameFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelMemoryGameConnection @aws_api_key @aws_iam
+  getAuditoryMemoryThreeWords(id: ID!): AuditoryMemoryThreeWords @aws_api_key @aws_iam
+  listAuditoryMemoryThreeWords(filter: ModelAuditoryMemoryThreeWordsFilterInput, limit: Int, nextToken: String): ModelAuditoryMemoryThreeWordsConnection @aws_api_key @aws_iam
+  syncAuditoryMemoryThreeWords(filter: ModelAuditoryMemoryThreeWordsFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelAuditoryMemoryThreeWordsConnection @aws_api_key @aws_iam
+  getAuditoryMemoryFourWords(id: ID!): AuditoryMemoryFourWords @aws_api_key @aws_iam
+  listAuditoryMemoryFourWords(filter: ModelAuditoryMemoryFourWordsFilterInput, limit: Int, nextToken: String): ModelAuditoryMemoryFourWordsConnection @aws_api_key @aws_iam
+  syncAuditoryMemoryFourWords(filter: ModelAuditoryMemoryFourWordsFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelAuditoryMemoryFourWordsConnection @aws_api_key @aws_iam
+  getAuditoryMemoryFiveWords(id: ID!): AuditoryMemoryFiveWords @aws_api_key @aws_iam
+  listAuditoryMemoryFiveWords(filter: ModelAuditoryMemoryFiveWordsFilterInput, limit: Int, nextToken: String): ModelAuditoryMemoryFiveWordsConnection @aws_api_key @aws_iam
+  syncAuditoryMemoryFiveWords(filter: ModelAuditoryMemoryFiveWordsFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelAuditoryMemoryFiveWordsConnection @aws_api_key @aws_iam
+  getClockDrawingTest(id: ID!): ClockDrawingTest @aws_api_key @aws_iam
+  listClockDrawingTests(filter: ModelClockDrawingTestFilterInput, limit: Int, nextToken: String): ModelClockDrawingTestConnection @aws_api_key @aws_iam
+  syncClockDrawingTests(filter: ModelClockDrawingTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelClockDrawingTestConnection @aws_api_key @aws_iam
+  getJoinCirclesTest(id: ID!): JoinCirclesTest @aws_api_key @aws_iam
+  listJoinCirclesTests(filter: ModelJoinCirclesTestFilterInput, limit: Int, nextToken: String): ModelJoinCirclesTestConnection @aws_api_key @aws_iam
+  syncJoinCirclesTests(filter: ModelJoinCirclesTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelJoinCirclesTestConnection @aws_api_key @aws_iam
+  getTremorTest(id: ID!): TremorTest @aws_api_key @aws_iam
+  listTremorTests(filter: ModelTremorTestFilterInput, limit: Int, nextToken: String): ModelTremorTestConnection @aws_api_key @aws_iam
+  syncTremorTests(filter: ModelTremorTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelTremorTestConnection @aws_api_key @aws_iam
+  getRecordVowelTest(id: ID!): RecordVowelTest @aws_api_key @aws_iam
+  listRecordVowelTests(filter: ModelRecordVowelTestFilterInput, limit: Int, nextToken: String): ModelRecordVowelTestConnection @aws_api_key @aws_iam
+  syncRecordVowelTests(filter: ModelRecordVowelTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelRecordVowelTestConnection @aws_api_key @aws_iam
+  getRecordBreathTest(id: ID!): RecordBreathTest @aws_api_key @aws_iam
+  listRecordBreathTests(filter: ModelRecordBreathTestFilterInput, limit: Int, nextToken: String): ModelRecordBreathTestConnection @aws_api_key @aws_iam
+  syncRecordBreathTests(filter: ModelRecordBreathTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelRecordBreathTestConnection @aws_api_key @aws_iam
+  getRecordSentenceTest(id: ID!): RecordSentenceTest @aws_api_key @aws_iam
+  listRecordSentenceTests(filter: ModelRecordSentenceTestFilterInput, limit: Int, nextToken: String): ModelRecordSentenceTestConnection @aws_api_key @aws_iam
+  syncRecordSentenceTests(filter: ModelRecordSentenceTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelRecordSentenceTestConnection @aws_api_key @aws_iam
+  getStraightWalkingTest(id: ID!): StraightWalkingTest @aws_api_key @aws_iam
+  listStraightWalkingTests(filter: ModelStraightWalkingTestFilterInput, limit: Int, nextToken: String): ModelStraightWalkingTestConnection @aws_api_key @aws_iam
+  syncStraightWalkingTests(filter: ModelStraightWalkingTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelStraightWalkingTestConnection @aws_api_key @aws_iam
+  getTurningTest(id: ID!): TurningTest @aws_api_key @aws_iam
+  listTurningTests(filter: ModelTurningTestFilterInput, limit: Int, nextToken: String): ModelTurningTestConnection @aws_api_key @aws_iam
+  syncTurningTests(filter: ModelTurningTestFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelTurningTestConnection @aws_api_key @aws_iam
+  getDemographicSurvey(id: ID!): DemographicSurvey @aws_api_key @aws_iam
+  listDemographicSurveys(filter: ModelDemographicSurveyFilterInput, limit: Int, nextToken: String): ModelDemographicSurveyConnection @aws_api_key @aws_iam
+  syncDemographicSurveys(filter: ModelDemographicSurveyFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelDemographicSurveyConnection @aws_api_key @aws_iam
+  getMDSUPDRS(id: ID!): MDSUPDRS @aws_api_key @aws_iam
+  listMDSUPDRS(filter: ModelMDSUPDRSFilterInput, limit: Int, nextToken: String): ModelMDSUPDRSConnection @aws_api_key @aws_iam
+  syncMDSUPDRS(filter: ModelMDSUPDRSFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelMDSUPDRSConnection @aws_api_key @aws_iam
+  getMMSE(id: ID!): MMSE @aws_api_key @aws_iam
+  listMMSES(filter: ModelMMSEFilterInput, limit: Int, nextToken: String): ModelMMSEConnection @aws_api_key @aws_iam
+  syncMMSES(filter: ModelMMSEFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelMMSEConnection @aws_api_key @aws_iam
+}
+
+input ModelSubmitTimeConditionInput {
+  uid: ModelStringInput
+  time: ModelStringInput
+  and: [ModelSubmitTimeConditionInput]
+  or: [ModelSubmitTimeConditionInput]
+  not: ModelSubmitTimeConditionInput
+}
+
+input CreateSubmitTimeInput {
+  id: ID
+  uid: String!
+  time: String!
+  _version: Int
+}
+
+input UpdateSubmitTimeInput {
+  id: ID!
+  uid: String
+  time: String
+  _version: Int
+}
+
+input DeleteSubmitTimeInput {
+  id: ID!
+  _version: Int
+}
+
+type Mutation {
+  createSubmitTime(input: CreateSubmitTimeInput!, condition: ModelSubmitTimeConditionInput): SubmitTime @aws_api_key @aws_iam
+  updateSubmitTime(input: UpdateSubmitTimeInput!, condition: ModelSubmitTimeConditionInput): SubmitTime @aws_api_key @aws_iam
+  deleteSubmitTime(input: DeleteSubmitTimeInput!, condition: ModelSubmitTimeConditionInput): SubmitTime @aws_api_key @aws_iam
+  createInformationTest(input: CreateInformationTestInput!, condition: ModelInformationTestConditionInput): InformationTest @aws_api_key @aws_iam
+  updateInformationTest(input: UpdateInformationTestInput!, condition: ModelInformationTestConditionInput): InformationTest @aws_api_key @aws_iam
+  deleteInformationTest(input: DeleteInformationTestInput!, condition: ModelInformationTestConditionInput): InformationTest @aws_api_key @aws_iam
+  createUserAccount(input: CreateUserAccountInput!, condition: ModelUserAccountConditionInput): UserAccount @aws_api_key @aws_iam
+  updateUserAccount(input: UpdateUserAccountInput!, condition: ModelUserAccountConditionInput): UserAccount @aws_api_key @aws_iam
+  deleteUserAccount(input: DeleteUserAccountInput!, condition: ModelUserAccountConditionInput): UserAccount @aws_api_key @aws_iam
+  createRhythmTest(input: CreateRhythmTestInput!, condition: ModelRhythmTestConditionInput): RhythmTest @aws_api_key @aws_iam
+  updateRhythmTest(input: UpdateRhythmTestInput!, condition: ModelRhythmTestConditionInput): RhythmTest @aws_api_key @aws_iam
+  deleteRhythmTest(input: DeleteRhythmTestInput!, condition: ModelRhythmTestConditionInput): RhythmTest @aws_api_key @aws_iam
+  createMemoryGame(input: CreateMemoryGameInput!, condition: ModelMemoryGameConditionInput): MemoryGame @aws_api_key @aws_iam
+  updateMemoryGame(input: UpdateMemoryGameInput!, condition: ModelMemoryGameConditionInput): MemoryGame @aws_api_key @aws_iam
+  deleteMemoryGame(input: DeleteMemoryGameInput!, condition: ModelMemoryGameConditionInput): MemoryGame @aws_api_key @aws_iam
+  createAuditoryMemoryThreeWords(input: CreateAuditoryMemoryThreeWordsInput!, condition: ModelAuditoryMemoryThreeWordsConditionInput): AuditoryMemoryThreeWords @aws_api_key @aws_iam
+  updateAuditoryMemoryThreeWords(input: UpdateAuditoryMemoryThreeWordsInput!, condition: ModelAuditoryMemoryThreeWordsConditionInput): AuditoryMemoryThreeWords @aws_api_key @aws_iam
+  deleteAuditoryMemoryThreeWords(input: DeleteAuditoryMemoryThreeWordsInput!, condition: ModelAuditoryMemoryThreeWordsConditionInput): AuditoryMemoryThreeWords @aws_api_key @aws_iam
+  createAuditoryMemoryFourWords(input: CreateAuditoryMemoryFourWordsInput!, condition: ModelAuditoryMemoryFourWordsConditionInput): AuditoryMemoryFourWords @aws_api_key @aws_iam
+  updateAuditoryMemoryFourWords(input: UpdateAuditoryMemoryFourWordsInput!, condition: ModelAuditoryMemoryFourWordsConditionInput): AuditoryMemoryFourWords @aws_api_key @aws_iam
+  deleteAuditoryMemoryFourWords(input: DeleteAuditoryMemoryFourWordsInput!, condition: ModelAuditoryMemoryFourWordsConditionInput): AuditoryMemoryFourWords @aws_api_key @aws_iam
+  createAuditoryMemoryFiveWords(input: CreateAuditoryMemoryFiveWordsInput!, condition: ModelAuditoryMemoryFiveWordsConditionInput): AuditoryMemoryFiveWords @aws_api_key @aws_iam
+  updateAuditoryMemoryFiveWords(input: UpdateAuditoryMemoryFiveWordsInput!, condition: ModelAuditoryMemoryFiveWordsConditionInput): AuditoryMemoryFiveWords @aws_api_key @aws_iam
+  deleteAuditoryMemoryFiveWords(input: DeleteAuditoryMemoryFiveWordsInput!, condition: ModelAuditoryMemoryFiveWordsConditionInput): AuditoryMemoryFiveWords @aws_api_key @aws_iam
+  createClockDrawingTest(input: CreateClockDrawingTestInput!, condition: ModelClockDrawingTestConditionInput): ClockDrawingTest @aws_api_key @aws_iam
+  updateClockDrawingTest(input: UpdateClockDrawingTestInput!, condition: ModelClockDrawingTestConditionInput): ClockDrawingTest @aws_api_key @aws_iam
+  deleteClockDrawingTest(input: DeleteClockDrawingTestInput!, condition: ModelClockDrawingTestConditionInput): ClockDrawingTest @aws_api_key @aws_iam
+  createJoinCirclesTest(input: CreateJoinCirclesTestInput!, condition: ModelJoinCirclesTestConditionInput): JoinCirclesTest @aws_api_key @aws_iam
+  updateJoinCirclesTest(input: UpdateJoinCirclesTestInput!, condition: ModelJoinCirclesTestConditionInput): JoinCirclesTest @aws_api_key @aws_iam
+  deleteJoinCirclesTest(input: DeleteJoinCirclesTestInput!, condition: ModelJoinCirclesTestConditionInput): JoinCirclesTest @aws_api_key @aws_iam
+  createTremorTest(input: CreateTremorTestInput!, condition: ModelTremorTestConditionInput): TremorTest @aws_api_key @aws_iam
+  updateTremorTest(input: UpdateTremorTestInput!, condition: ModelTremorTestConditionInput): TremorTest @aws_api_key @aws_iam
+  deleteTremorTest(input: DeleteTremorTestInput!, condition: ModelTremorTestConditionInput): TremorTest @aws_api_key @aws_iam
+  createRecordVowelTest(input: CreateRecordVowelTestInput!, condition: ModelRecordVowelTestConditionInput): RecordVowelTest @aws_api_key @aws_iam
+  updateRecordVowelTest(input: UpdateRecordVowelTestInput!, condition: ModelRecordVowelTestConditionInput): RecordVowelTest @aws_api_key @aws_iam
+  deleteRecordVowelTest(input: DeleteRecordVowelTestInput!, condition: ModelRecordVowelTestConditionInput): RecordVowelTest @aws_api_key @aws_iam
+  createRecordBreathTest(input: CreateRecordBreathTestInput!, condition: ModelRecordBreathTestConditionInput): RecordBreathTest @aws_api_key @aws_iam
+  updateRecordBreathTest(input: UpdateRecordBreathTestInput!, condition: ModelRecordBreathTestConditionInput): RecordBreathTest @aws_api_key @aws_iam
+  deleteRecordBreathTest(input: DeleteRecordBreathTestInput!, condition: ModelRecordBreathTestConditionInput): RecordBreathTest @aws_api_key @aws_iam
+  createRecordSentenceTest(input: CreateRecordSentenceTestInput!, condition: ModelRecordSentenceTestConditionInput): RecordSentenceTest @aws_api_key @aws_iam
+  updateRecordSentenceTest(input: UpdateRecordSentenceTestInput!, condition: ModelRecordSentenceTestConditionInput): RecordSentenceTest @aws_api_key @aws_iam
+  deleteRecordSentenceTest(input: DeleteRecordSentenceTestInput!, condition: ModelRecordSentenceTestConditionInput): RecordSentenceTest @aws_api_key @aws_iam
+  createStraightWalkingTest(input: CreateStraightWalkingTestInput!, condition: ModelStraightWalkingTestConditionInput): StraightWalkingTest @aws_api_key @aws_iam
+  updateStraightWalkingTest(input: UpdateStraightWalkingTestInput!, condition: ModelStraightWalkingTestConditionInput): StraightWalkingTest @aws_api_key @aws_iam
+  deleteStraightWalkingTest(input: DeleteStraightWalkingTestInput!, condition: ModelStraightWalkingTestConditionInput): StraightWalkingTest @aws_api_key @aws_iam
+  createTurningTest(input: CreateTurningTestInput!, condition: ModelTurningTestConditionInput): TurningTest @aws_api_key @aws_iam
+  updateTurningTest(input: UpdateTurningTestInput!, condition: ModelTurningTestConditionInput): TurningTest @aws_api_key @aws_iam
+  deleteTurningTest(input: DeleteTurningTestInput!, condition: ModelTurningTestConditionInput): TurningTest @aws_api_key @aws_iam
+  createDemographicSurvey(input: CreateDemographicSurveyInput!, condition: ModelDemographicSurveyConditionInput): DemographicSurvey @aws_api_key @aws_iam
+  updateDemographicSurvey(input: UpdateDemographicSurveyInput!, condition: ModelDemographicSurveyConditionInput): DemographicSurvey @aws_api_key @aws_iam
+  deleteDemographicSurvey(input: DeleteDemographicSurveyInput!, condition: ModelDemographicSurveyConditionInput): DemographicSurvey @aws_api_key @aws_iam
+  createMDSUPDRS(input: CreateMDSUPDRSInput!, condition: ModelMDSUPDRSConditionInput): MDSUPDRS @aws_api_key @aws_iam
+  updateMDSUPDRS(input: UpdateMDSUPDRSInput!, condition: ModelMDSUPDRSConditionInput): MDSUPDRS @aws_api_key @aws_iam
+  deleteMDSUPDRS(input: DeleteMDSUPDRSInput!, condition: ModelMDSUPDRSConditionInput): MDSUPDRS @aws_api_key @aws_iam
+  createMMSE(input: CreateMMSEInput!, condition: ModelMMSEConditionInput): MMSE @aws_api_key @aws_iam
+  updateMMSE(input: UpdateMMSEInput!, condition: ModelMMSEConditionInput): MMSE @aws_api_key @aws_iam
+  deleteMMSE(input: DeleteMMSEInput!, condition: ModelMMSEConditionInput): MMSE @aws_api_key @aws_iam
+}
+
+type Subscription {
+  onCreateSubmitTime: SubmitTime @aws_subscribe(mutations: ["createSubmitTime"]) @aws_api_key @aws_iam
+  onUpdateSubmitTime: SubmitTime @aws_subscribe(mutations: ["updateSubmitTime"]) @aws_api_key @aws_iam
+  onDeleteSubmitTime: SubmitTime @aws_subscribe(mutations: ["deleteSubmitTime"]) @aws_api_key @aws_iam
+  onCreateInformationTest: InformationTest @aws_subscribe(mutations: ["createInformationTest"]) @aws_api_key @aws_iam
+  onUpdateInformationTest: InformationTest @aws_subscribe(mutations: ["updateInformationTest"]) @aws_api_key @aws_iam
+  onDeleteInformationTest: InformationTest @aws_subscribe(mutations: ["deleteInformationTest"]) @aws_api_key @aws_iam
+  onCreateUserAccount: UserAccount @aws_subscribe(mutations: ["createUserAccount"]) @aws_api_key @aws_iam
+  onUpdateUserAccount: UserAccount @aws_subscribe(mutations: ["updateUserAccount"]) @aws_api_key @aws_iam
+  onDeleteUserAccount: UserAccount @aws_subscribe(mutations: ["deleteUserAccount"]) @aws_api_key @aws_iam
+  onCreateRhythmTest: RhythmTest @aws_subscribe(mutations: ["createRhythmTest"]) @aws_api_key @aws_iam
+  onUpdateRhythmTest: RhythmTest @aws_subscribe(mutations: ["updateRhythmTest"]) @aws_api_key @aws_iam
+  onDeleteRhythmTest: RhythmTest @aws_subscribe(mutations: ["deleteRhythmTest"]) @aws_api_key @aws_iam
+  onCreateMemoryGame: MemoryGame @aws_subscribe(mutations: ["createMemoryGame"]) @aws_api_key @aws_iam
+  onUpdateMemoryGame: MemoryGame @aws_subscribe(mutations: ["updateMemoryGame"]) @aws_api_key @aws_iam
+  onDeleteMemoryGame: MemoryGame @aws_subscribe(mutations: ["deleteMemoryGame"]) @aws_api_key @aws_iam
+  onCreateAuditoryMemoryThreeWords: AuditoryMemoryThreeWords @aws_subscribe(mutations: ["createAuditoryMemoryThreeWords"]) @aws_api_key @aws_iam
+  onUpdateAuditoryMemoryThreeWords: AuditoryMemoryThreeWords @aws_subscribe(mutations: ["updateAuditoryMemoryThreeWords"]) @aws_api_key @aws_iam
+  onDeleteAuditoryMemoryThreeWords: AuditoryMemoryThreeWords @aws_subscribe(mutations: ["deleteAuditoryMemoryThreeWords"]) @aws_api_key @aws_iam
+  onCreateAuditoryMemoryFourWords: AuditoryMemoryFourWords @aws_subscribe(mutations: ["createAuditoryMemoryFourWords"]) @aws_api_key @aws_iam
+  onUpdateAuditoryMemoryFourWords: AuditoryMemoryFourWords @aws_subscribe(mutations: ["updateAuditoryMemoryFourWords"]) @aws_api_key @aws_iam
+  onDeleteAuditoryMemoryFourWords: AuditoryMemoryFourWords @aws_subscribe(mutations: ["deleteAuditoryMemoryFourWords"]) @aws_api_key @aws_iam
+  onCreateAuditoryMemoryFiveWords: AuditoryMemoryFiveWords @aws_subscribe(mutations: ["createAuditoryMemoryFiveWords"]) @aws_api_key @aws_iam
+  onUpdateAuditoryMemoryFiveWords: AuditoryMemoryFiveWords @aws_subscribe(mutations: ["updateAuditoryMemoryFiveWords"]) @aws_api_key @aws_iam
+  onDeleteAuditoryMemoryFiveWords: AuditoryMemoryFiveWords @aws_subscribe(mutations: ["deleteAuditoryMemoryFiveWords"]) @aws_api_key @aws_iam
+  onCreateClockDrawingTest: ClockDrawingTest @aws_subscribe(mutations: ["createClockDrawingTest"]) @aws_api_key @aws_iam
+  onUpdateClockDrawingTest: ClockDrawingTest @aws_subscribe(mutations: ["updateClockDrawingTest"]) @aws_api_key @aws_iam
+  onDeleteClockDrawingTest: ClockDrawingTest @aws_subscribe(mutations: ["deleteClockDrawingTest"]) @aws_api_key @aws_iam
+  onCreateJoinCirclesTest: JoinCirclesTest @aws_subscribe(mutations: ["createJoinCirclesTest"]) @aws_api_key @aws_iam
+  onUpdateJoinCirclesTest: JoinCirclesTest @aws_subscribe(mutations: ["updateJoinCirclesTest"]) @aws_api_key @aws_iam
+  onDeleteJoinCirclesTest: JoinCirclesTest @aws_subscribe(mutations: ["deleteJoinCirclesTest"]) @aws_api_key @aws_iam
+  onCreateTremorTest: TremorTest @aws_subscribe(mutations: ["createTremorTest"]) @aws_api_key @aws_iam
+  onUpdateTremorTest: TremorTest @aws_subscribe(mutations: ["updateTremorTest"]) @aws_api_key @aws_iam
+  onDeleteTremorTest: TremorTest @aws_subscribe(mutations: ["deleteTremorTest"]) @aws_api_key @aws_iam
+  onCreateRecordVowelTest: RecordVowelTest @aws_subscribe(mutations: ["createRecordVowelTest"]) @aws_api_key @aws_iam
+  onUpdateRecordVowelTest: RecordVowelTest @aws_subscribe(mutations: ["updateRecordVowelTest"]) @aws_api_key @aws_iam
+  onDeleteRecordVowelTest: RecordVowelTest @aws_subscribe(mutations: ["deleteRecordVowelTest"]) @aws_api_key @aws_iam
+  onCreateRecordBreathTest: RecordBreathTest @aws_subscribe(mutations: ["createRecordBreathTest"]) @aws_api_key @aws_iam
+  onUpdateRecordBreathTest: RecordBreathTest @aws_subscribe(mutations: ["updateRecordBreathTest"]) @aws_api_key @aws_iam
+  onDeleteRecordBreathTest: RecordBreathTest @aws_subscribe(mutations: ["deleteRecordBreathTest"]) @aws_api_key @aws_iam
+  onCreateRecordSentenceTest: RecordSentenceTest @aws_subscribe(mutations: ["createRecordSentenceTest"]) @aws_api_key @aws_iam
+  onUpdateRecordSentenceTest: RecordSentenceTest @aws_subscribe(mutations: ["updateRecordSentenceTest"]) @aws_api_key @aws_iam
+  onDeleteRecordSentenceTest: RecordSentenceTest @aws_subscribe(mutations: ["deleteRecordSentenceTest"]) @aws_api_key @aws_iam
+  onCreateStraightWalkingTest: StraightWalkingTest @aws_subscribe(mutations: ["createStraightWalkingTest"]) @aws_api_key @aws_iam
+  onUpdateStraightWalkingTest: StraightWalkingTest @aws_subscribe(mutations: ["updateStraightWalkingTest"]) @aws_api_key @aws_iam
+  onDeleteStraightWalkingTest: StraightWalkingTest @aws_subscribe(mutations: ["deleteStraightWalkingTest"]) @aws_api_key @aws_iam
+  onCreateTurningTest: TurningTest @aws_subscribe(mutations: ["createTurningTest"]) @aws_api_key @aws_iam
+  onUpdateTurningTest: TurningTest @aws_subscribe(mutations: ["updateTurningTest"]) @aws_api_key @aws_iam
+  onDeleteTurningTest: TurningTest @aws_subscribe(mutations: ["deleteTurningTest"]) @aws_api_key @aws_iam
+  onCreateDemographicSurvey: DemographicSurvey @aws_subscribe(mutations: ["createDemographicSurvey"]) @aws_api_key @aws_iam
+  onUpdateDemographicSurvey: DemographicSurvey @aws_subscribe(mutations: ["updateDemographicSurvey"]) @aws_api_key @aws_iam
+  onDeleteDemographicSurvey: DemographicSurvey @aws_subscribe(mutations: ["deleteDemographicSurvey"]) @aws_api_key @aws_iam
+  onCreateMDSUPDRS: MDSUPDRS @aws_subscribe(mutations: ["createMDSUPDRS"]) @aws_api_key @aws_iam
+  onUpdateMDSUPDRS: MDSUPDRS @aws_subscribe(mutations: ["updateMDSUPDRS"]) @aws_api_key @aws_iam
+  onDeleteMDSUPDRS: MDSUPDRS @aws_subscribe(mutations: ["deleteMDSUPDRS"]) @aws_api_key @aws_iam
+  onCreateMMSE: MMSE @aws_subscribe(mutations: ["createMMSE"]) @aws_api_key @aws_iam
+  onUpdateMMSE: MMSE @aws_subscribe(mutations: ["updateMMSE"]) @aws_api_key @aws_iam
+  onDeleteMMSE: MMSE @aws_subscribe(mutations: ["deleteMMSE"]) @aws_api_key @aws_iam
+}
+
+type ModelInformationTestConnection @aws_api_key @aws_iam {
+  items: [InformationTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelInformationTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  number: ModelStringInput
+  age: ModelStringInput
+  gender: ModelStringInput
+  testtime: ModelStringInput
+  medicinetype: ModelStringInput
+  medicinefreq: ModelStringInput
+  symptom: ModelStringInput
+  and: [ModelInformationTestFilterInput]
+  or: [ModelInformationTestFilterInput]
+  not: ModelInformationTestFilterInput
+}
+
+input ModelInformationTestConditionInput {
+  uid: ModelStringInput
+  number: ModelStringInput
+  age: ModelStringInput
+  gender: ModelStringInput
+  testtime: ModelStringInput
+  medicinetype: ModelStringInput
+  medicinefreq: ModelStringInput
+  symptom: ModelStringInput
+  and: [ModelInformationTestConditionInput]
+  or: [ModelInformationTestConditionInput]
+  not: ModelInformationTestConditionInput
+}
+
+input CreateInformationTestInput {
+  id: ID
+  uid: String!
+  number: String!
+  age: String!
+  gender: String!
+  testtime: String!
+  medicinetype: String!
+  medicinefreq: String!
+  symptom: String!
+  _version: Int
+}
+
+input UpdateInformationTestInput {
+  id: ID!
+  uid: String
+  number: String
+  age: String
+  gender: String
+  testtime: String
+  medicinetype: String
+  medicinefreq: String
+  symptom: String
+  _version: Int
+}
+
+input DeleteInformationTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelUserAccountConnection @aws_api_key @aws_iam {
+  items: [UserAccount]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelUserAccountFilterInput {
+  id: ModelIDInput
+  Username: ModelStringInput
+  Password: ModelStringInput
+  uid: ModelStringInput
+  and: [ModelUserAccountFilterInput]
+  or: [ModelUserAccountFilterInput]
+  not: ModelUserAccountFilterInput
+}
+
+input ModelUserAccountConditionInput {
+  Username: ModelStringInput
+  Password: ModelStringInput
+  uid: ModelStringInput
+  and: [ModelUserAccountConditionInput]
+  or: [ModelUserAccountConditionInput]
+  not: ModelUserAccountConditionInput
+}
+
+input CreateUserAccountInput {
+  id: ID
+  Username: String!
+  Password: String!
+  uid: String!
+  _version: Int
+}
+
+input UpdateUserAccountInput {
+  id: ID!
+  Username: String
+  Password: String
+  uid: String
+  _version: Int
+}
+
+input DeleteUserAccountInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelRhythmTestConnection @aws_api_key @aws_iam {
+  items: [RhythmTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelRhythmTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  Score: ModelIntInput
+  TotalPixelsFromCenter: ModelFloatInput
+  and: [ModelRhythmTestFilterInput]
+  or: [ModelRhythmTestFilterInput]
+  not: ModelRhythmTestFilterInput
+}
+
+input ModelRhythmTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  Score: ModelIntInput
+  TotalPixelsFromCenter: ModelFloatInput
+  and: [ModelRhythmTestConditionInput]
+  or: [ModelRhythmTestConditionInput]
+  not: ModelRhythmTestConditionInput
+}
+
+input CreateRhythmTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  Score: Int!
+  TotalPixelsFromCenter: Float!
+  _version: Int
+}
+
+input UpdateRhythmTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  Score: Int
+  TotalPixelsFromCenter: Float
+  _version: Int
+}
+
+input DeleteRhythmTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelMemoryGameConnection @aws_api_key @aws_iam {
+  items: [MemoryGame]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelMemoryGameFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  Tries: ModelIntInput
+  Difficulty: ModelIntInput
+  GameFinished: ModelBooleanInput
+  and: [ModelMemoryGameFilterInput]
+  or: [ModelMemoryGameFilterInput]
+  not: ModelMemoryGameFilterInput
+}
+
+input ModelMemoryGameConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  Tries: ModelIntInput
+  Difficulty: ModelIntInput
+  GameFinished: ModelBooleanInput
+  and: [ModelMemoryGameConditionInput]
+  or: [ModelMemoryGameConditionInput]
+  not: ModelMemoryGameConditionInput
+}
+
+input CreateMemoryGameInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  Tries: Int!
+  Difficulty: Int!
+  GameFinished: Boolean!
+  _version: Int
+}
+
+input UpdateMemoryGameInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  Tries: Int
+  Difficulty: Int
+  GameFinished: Boolean
+  _version: Int
+}
+
+input DeleteMemoryGameInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelAuditoryMemoryThreeWordsConnection @aws_api_key @aws_iam {
+  items: [AuditoryMemoryThreeWords]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelAuditoryMemoryThreeWordsFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelAuditoryMemoryThreeWordsFilterInput]
+  or: [ModelAuditoryMemoryThreeWordsFilterInput]
+  not: ModelAuditoryMemoryThreeWordsFilterInput
+}
+
+input ModelAuditoryMemoryThreeWordsConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelAuditoryMemoryThreeWordsConditionInput]
+  or: [ModelAuditoryMemoryThreeWordsConditionInput]
+  not: ModelAuditoryMemoryThreeWordsConditionInput
+}
+
+input CreateAuditoryMemoryThreeWordsInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateAuditoryMemoryThreeWordsInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteAuditoryMemoryThreeWordsInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelAuditoryMemoryFourWordsConnection @aws_api_key @aws_iam {
+  items: [AuditoryMemoryFourWords]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelAuditoryMemoryFourWordsFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelAuditoryMemoryFourWordsFilterInput]
+  or: [ModelAuditoryMemoryFourWordsFilterInput]
+  not: ModelAuditoryMemoryFourWordsFilterInput
+}
+
+input ModelAuditoryMemoryFourWordsConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelAuditoryMemoryFourWordsConditionInput]
+  or: [ModelAuditoryMemoryFourWordsConditionInput]
+  not: ModelAuditoryMemoryFourWordsConditionInput
+}
+
+input CreateAuditoryMemoryFourWordsInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateAuditoryMemoryFourWordsInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteAuditoryMemoryFourWordsInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelAuditoryMemoryFiveWordsConnection @aws_api_key @aws_iam {
+  items: [AuditoryMemoryFiveWords]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelAuditoryMemoryFiveWordsFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelAuditoryMemoryFiveWordsFilterInput]
+  or: [ModelAuditoryMemoryFiveWordsFilterInput]
+  not: ModelAuditoryMemoryFiveWordsFilterInput
+}
+
+input ModelAuditoryMemoryFiveWordsConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelAuditoryMemoryFiveWordsConditionInput]
+  or: [ModelAuditoryMemoryFiveWordsConditionInput]
+  not: ModelAuditoryMemoryFiveWordsConditionInput
+}
+
+input CreateAuditoryMemoryFiveWordsInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateAuditoryMemoryFiveWordsInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteAuditoryMemoryFiveWordsInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelClockDrawingTestConnection @aws_api_key @aws_iam {
+  items: [ClockDrawingTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelClockDrawingTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelClockDrawingTestFilterInput]
+  or: [ModelClockDrawingTestFilterInput]
+  not: ModelClockDrawingTestFilterInput
+}
+
+input ModelClockDrawingTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelClockDrawingTestConditionInput]
+  or: [ModelClockDrawingTestConditionInput]
+  not: ModelClockDrawingTestConditionInput
+}
+
+input CreateClockDrawingTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateClockDrawingTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteClockDrawingTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelJoinCirclesTestConnection @aws_api_key @aws_iam {
+  items: [JoinCirclesTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelJoinCirclesTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelJoinCirclesTestFilterInput]
+  or: [ModelJoinCirclesTestFilterInput]
+  not: ModelJoinCirclesTestFilterInput
+}
+
+input ModelJoinCirclesTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelJoinCirclesTestConditionInput]
+  or: [ModelJoinCirclesTestConditionInput]
+  not: ModelJoinCirclesTestConditionInput
+}
+
+input CreateJoinCirclesTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateJoinCirclesTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteJoinCirclesTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelTremorTestConnection @aws_api_key @aws_iam {
+  items: [TremorTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelTremorTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelTremorTestFilterInput]
+  or: [ModelTremorTestFilterInput]
+  not: ModelTremorTestFilterInput
+}
+
+input ModelTremorTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelTremorTestConditionInput]
+  or: [ModelTremorTestConditionInput]
+  not: ModelTremorTestConditionInput
+}
+
+input CreateTremorTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateTremorTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteTremorTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelRecordVowelTestConnection @aws_api_key @aws_iam {
+  items: [RecordVowelTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelRecordVowelTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelRecordVowelTestFilterInput]
+  or: [ModelRecordVowelTestFilterInput]
+  not: ModelRecordVowelTestFilterInput
+}
+
+input ModelRecordVowelTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelRecordVowelTestConditionInput]
+  or: [ModelRecordVowelTestConditionInput]
+  not: ModelRecordVowelTestConditionInput
+}
+
+input CreateRecordVowelTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateRecordVowelTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteRecordVowelTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelRecordBreathTestConnection @aws_api_key @aws_iam {
+  items: [RecordBreathTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelRecordBreathTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelRecordBreathTestFilterInput]
+  or: [ModelRecordBreathTestFilterInput]
+  not: ModelRecordBreathTestFilterInput
+}
+
+input ModelRecordBreathTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelRecordBreathTestConditionInput]
+  or: [ModelRecordBreathTestConditionInput]
+  not: ModelRecordBreathTestConditionInput
+}
+
+input CreateRecordBreathTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateRecordBreathTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteRecordBreathTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelRecordSentenceTestConnection @aws_api_key @aws_iam {
+  items: [RecordSentenceTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelRecordSentenceTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelRecordSentenceTestFilterInput]
+  or: [ModelRecordSentenceTestFilterInput]
+  not: ModelRecordSentenceTestFilterInput
+}
+
+input ModelRecordSentenceTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelRecordSentenceTestConditionInput]
+  or: [ModelRecordSentenceTestConditionInput]
+  not: ModelRecordSentenceTestConditionInput
+}
+
+input CreateRecordSentenceTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateRecordSentenceTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteRecordSentenceTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelStraightWalkingTestConnection @aws_api_key @aws_iam {
+  items: [StraightWalkingTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelStraightWalkingTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  stepcount: ModelStringInput
+  and: [ModelStraightWalkingTestFilterInput]
+  or: [ModelStraightWalkingTestFilterInput]
+  not: ModelStraightWalkingTestFilterInput
+}
+
+input ModelStraightWalkingTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  stepcount: ModelStringInput
+  and: [ModelStraightWalkingTestConditionInput]
+  or: [ModelStraightWalkingTestConditionInput]
+  not: ModelStraightWalkingTestConditionInput
+}
+
+input CreateStraightWalkingTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  stepcount: String!
+  _version: Int
+}
+
+input UpdateStraightWalkingTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  stepcount: String
+  _version: Int
+}
+
+input DeleteStraightWalkingTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelTurningTestConnection @aws_api_key @aws_iam {
+  items: [TurningTest]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelTurningTestFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelTurningTestFilterInput]
+  or: [ModelTurningTestFilterInput]
+  not: ModelTurningTestFilterInput
+}
+
+input ModelTurningTestConditionInput {
+  uid: ModelStringInput
+  MedicineAnswer: ModelStringInput
+  and: [ModelTurningTestConditionInput]
+  or: [ModelTurningTestConditionInput]
+  not: ModelTurningTestConditionInput
+}
+
+input CreateTurningTestInput {
+  id: ID
+  uid: String!
+  MedicineAnswer: String!
+  _version: Int
+}
+
+input UpdateTurningTestInput {
+  id: ID!
+  uid: String
+  MedicineAnswer: String
+  _version: Int
+}
+
+input DeleteTurningTestInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelDemographicSurveyConnection @aws_api_key @aws_iam {
+  items: [DemographicSurvey]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelDemographicSurveyFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  Question1: ModelStringInput
+  Question2: ModelStringInput
+  Question3: ModelStringInput
+  Question4: ModelStringInput
+  Question5: ModelStringInput
+  Question6: ModelStringInput
+  Question7: ModelStringInput
+  Question8: ModelStringInput
+  Question9: ModelStringInput
+  Question10: ModelStringInput
+  Question11: ModelStringInput
+  Question12: ModelStringInput
+  Question13: ModelStringInput
+  Question14: ModelStringInput
+  Question15: ModelStringInput
+  Question16: ModelStringInput
+  Question17: ModelStringInput
+  Question18: ModelStringInput
+  Question19: ModelStringInput
+  Question20: ModelStringInput
+  Question21: ModelStringInput
+  Question22: ModelStringInput
+  Question23: ModelStringInput
+  Question24: ModelStringInput
+  Question25: ModelStringInput
+  Question26: ModelStringInput
+  Question27: ModelStringInput
+  Question28: ModelStringInput
+  Question29: ModelStringInput
+  Question30: ModelStringInput
+  Question31: ModelStringInput
+  SurveyParticipant: ModelStringInput
+  and: [ModelDemographicSurveyFilterInput]
+  or: [ModelDemographicSurveyFilterInput]
+  not: ModelDemographicSurveyFilterInput
+}
+
+input ModelDemographicSurveyConditionInput {
+  uid: ModelStringInput
+  Question1: ModelStringInput
+  Question2: ModelStringInput
+  Question3: ModelStringInput
+  Question4: ModelStringInput
+  Question5: ModelStringInput
+  Question6: ModelStringInput
+  Question7: ModelStringInput
+  Question8: ModelStringInput
+  Question9: ModelStringInput
+  Question10: ModelStringInput
+  Question11: ModelStringInput
+  Question12: ModelStringInput
+  Question13: ModelStringInput
+  Question14: ModelStringInput
+  Question15: ModelStringInput
+  Question16: ModelStringInput
+  Question17: ModelStringInput
+  Question18: ModelStringInput
+  Question19: ModelStringInput
+  Question20: ModelStringInput
+  Question21: ModelStringInput
+  Question22: ModelStringInput
+  Question23: ModelStringInput
+  Question24: ModelStringInput
+  Question25: ModelStringInput
+  Question26: ModelStringInput
+  Question27: ModelStringInput
+  Question28: ModelStringInput
+  Question29: ModelStringInput
+  Question30: ModelStringInput
+  Question31: ModelStringInput
+  SurveyParticipant: ModelStringInput
+  and: [ModelDemographicSurveyConditionInput]
+  or: [ModelDemographicSurveyConditionInput]
+  not: ModelDemographicSurveyConditionInput
+}
+
+input CreateDemographicSurveyInput {
+  id: ID
+  uid: String!
+  Question1: String!
+  Question2: String!
+  Question3: String!
+  Question4: String!
+  Question5: String!
+  Question6: String!
+  Question7: String!
+  Question8: String!
+  Question9: String!
+  Question10: String!
+  Question11: String!
+  Question12: String!
+  Question13: String!
+  Question14: String!
+  Question15: String!
+  Question16: String!
+  Question17: String!
+  Question18: String!
+  Question19: String!
+  Question20: String!
+  Question21: String!
+  Question22: String!
+  Question23: String!
+  Question24: String!
+  Question25: String!
+  Question26: String!
+  Question27: String!
+  Question28: String!
+  Question29: String!
+  Question30: String!
+  Question31: String!
+  SurveyParticipant: String!
+  _version: Int
+}
+
+input UpdateDemographicSurveyInput {
+  id: ID!
+  uid: String
+  Question1: String
+  Question2: String
+  Question3: String
+  Question4: String
+  Question5: String
+  Question6: String
+  Question7: String
+  Question8: String
+  Question9: String
+  Question10: String
+  Question11: String
+  Question12: String
+  Question13: String
+  Question14: String
+  Question15: String
+  Question16: String
+  Question17: String
+  Question18: String
+  Question19: String
+  Question20: String
+  Question21: String
+  Question22: String
+  Question23: String
+  Question24: String
+  Question25: String
+  Question26: String
+  Question27: String
+  Question28: String
+  Question29: String
+  Question30: String
+  Question31: String
+  SurveyParticipant: String
+  _version: Int
+}
+
+input DeleteDemographicSurveyInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelMDSUPDRSConnection @aws_api_key @aws_iam {
+  items: [MDSUPDRS]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelMDSUPDRSFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  Question1: ModelIntInput
+  Question2: ModelIntInput
+  Question3: ModelIntInput
+  Question4: ModelIntInput
+  Question5: ModelIntInput
+  Question6: ModelIntInput
+  Question7: ModelIntInput
+  Question8: ModelIntInput
+  Question9: ModelIntInput
+  Question10: ModelIntInput
+  Question11: ModelIntInput
+  Question12: ModelIntInput
+  Question13: ModelIntInput
+  Question14: ModelIntInput
+  Question15: ModelIntInput
+  Question16: ModelIntInput
+  Question17: ModelIntInput
+  Question18: ModelIntInput
+  Question19: ModelIntInput
+  Question20: ModelIntInput
+  Question21: ModelIntInput
+  SurveyParticipant: ModelStringInput
+  and: [ModelMDSUPDRSFilterInput]
+  or: [ModelMDSUPDRSFilterInput]
+  not: ModelMDSUPDRSFilterInput
+}
+
+input ModelMDSUPDRSConditionInput {
+  uid: ModelStringInput
+  Question1: ModelIntInput
+  Question2: ModelIntInput
+  Question3: ModelIntInput
+  Question4: ModelIntInput
+  Question5: ModelIntInput
+  Question6: ModelIntInput
+  Question7: ModelIntInput
+  Question8: ModelIntInput
+  Question9: ModelIntInput
+  Question10: ModelIntInput
+  Question11: ModelIntInput
+  Question12: ModelIntInput
+  Question13: ModelIntInput
+  Question14: ModelIntInput
+  Question15: ModelIntInput
+  Question16: ModelIntInput
+  Question17: ModelIntInput
+  Question18: ModelIntInput
+  Question19: ModelIntInput
+  Question20: ModelIntInput
+  Question21: ModelIntInput
+  SurveyParticipant: ModelStringInput
+  and: [ModelMDSUPDRSConditionInput]
+  or: [ModelMDSUPDRSConditionInput]
+  not: ModelMDSUPDRSConditionInput
+}
+
+input CreateMDSUPDRSInput {
+  id: ID
+  uid: String!
+  Question1: Int!
+  Question2: Int!
+  Question3: Int!
+  Question4: Int!
+  Question5: Int!
+  Question6: Int!
+  Question7: Int!
+  Question8: Int!
+  Question9: Int!
+  Question10: Int!
+  Question11: Int!
+  Question12: Int!
+  Question13: Int!
+  Question14: Int!
+  Question15: Int!
+  Question16: Int!
+  Question17: Int!
+  Question18: Int!
+  Question19: Int!
+  Question20: Int!
+  Question21: Int!
+  SurveyParticipant: String!
+  _version: Int
+}
+
+input UpdateMDSUPDRSInput {
+  id: ID!
+  uid: String
+  Question1: Int
+  Question2: Int
+  Question3: Int
+  Question4: Int
+  Question5: Int
+  Question6: Int
+  Question7: Int
+  Question8: Int
+  Question9: Int
+  Question10: Int
+  Question11: Int
+  Question12: Int
+  Question13: Int
+  Question14: Int
+  Question15: Int
+  Question16: Int
+  Question17: Int
+  Question18: Int
+  Question19: Int
+  Question20: Int
+  Question21: Int
+  SurveyParticipant: String
+  _version: Int
+}
+
+input DeleteMDSUPDRSInput {
+  id: ID!
+  _version: Int
+}
+
+type ModelMMSEConnection @aws_api_key @aws_iam {
+  items: [MMSE]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelMMSEFilterInput {
+  id: ModelIDInput
+  uid: ModelStringInput
+  Question1: ModelStringInput
+  Question2: ModelStringInput
+  Question3: ModelStringInput
+  Question4: ModelStringInput
+  Question5: ModelStringInput
+  Question6: ModelStringInput
+  Question7: ModelStringInput
+  Question8: ModelStringInput
+  Question9: ModelStringInput
+  Question10: ModelStringInput
+  and: [ModelMMSEFilterInput]
+  or: [ModelMMSEFilterInput]
+  not: ModelMMSEFilterInput
+}
+
+input ModelMMSEConditionInput {
+  uid: ModelStringInput
+  Question1: ModelStringInput
+  Question2: ModelStringInput
+  Question3: ModelStringInput
+  Question4: ModelStringInput
+  Question5: ModelStringInput
+  Question6: ModelStringInput
+  Question7: ModelStringInput
+  Question8: ModelStringInput
+  Question9: ModelStringInput
+  Question10: ModelStringInput
+  and: [ModelMMSEConditionInput]
+  or: [ModelMMSEConditionInput]
+  not: ModelMMSEConditionInput
+}
+
+input CreateMMSEInput {
+  id: ID
+  uid: String!
+  Question1: String!
+  Question2: String!
+  Question3: String!
+  Question4: String!
+  Question5: String!
+  Question6: String!
+  Question7: String!
+  Question8: String!
+  Question9: String!
+  Question10: String!
+  _version: Int
+}
+
+input UpdateMMSEInput {
+  id: ID!
+  uid: String
+  Question1: String
+  Question2: String
+  Question3: String
+  Question4: String
+  Question5: String
+  Question6: String
+  Question7: String
+  Question8: String
+  Question9: String
+  Question10: String
+  _version: Int
+}
+
+input DeleteMMSEInput {
+  id: ID!
+  _version: Int
+}
+

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/fast_out_slow_in.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/mtrl_linear.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/res/interpolator/mtrl_linear.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_api/intermediates/res/merged/debug/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/c1b0b7926a6da4313e2d47403f6ebc32/appcompat-1.2.0/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    }
+]

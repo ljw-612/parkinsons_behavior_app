@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/jingwei/parkinsons_behavior_app/build/amplify_analytics_pinpoint/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/jingwei/.gradle/caches/transforms-2/files-2.1/56fc5ce3fd9313dd80bf7d810f5ded8a/material-1.0.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

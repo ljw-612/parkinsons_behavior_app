@@ -1,0 +1,8 @@
+{
+    "AppSyncApiName": "pdappbackendfi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthModeLastUpdated": "2022-01-28T09:20:37.907Z",
+    "S3DeploymentBucket": "amplify-pdappbackendfi-dev-113259-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/bf94e0f3e48cfca9d327dc9da54f9ef3c2082149"
+}
